@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0"?>
 <package>
     <metadata>
-        <id>SharpBrake</id>
-        <version>2.2.1</version>
+        <id>SharpBrakeJamesFork</id>
+        <version>0.0.2</version>
         <authors>Asbjørn Ulsberg, Michael Friis</authors>
         <owners>Asbjørn Ulsberg, Michael Friis</owners>
         <projectUrl>https://github.com/asbjornu/SharpBrake</projectUrl>
@@ -20,7 +20,7 @@
             <frameworkAssembly assemblyName="System.Xml" />
         </frameworkAssemblies>
         <dependencies>
-            <dependency id="Common.Logging" />
+            <dependency id="Common.Logging"  version="2.1.1" />
         </dependencies>
     </metadata>
     <files>
